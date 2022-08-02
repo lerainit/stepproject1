@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./styles/reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="./styles/step.css">
+	<link rel="stylesheet" href="./styles/loader.css">
+	<script defer src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+     <script defer src="./scripts/services.js"></script>
+	<script defer src="./scripts/amazingWork.js"></script>
+	<script defer src="./scripts/slider.js"></script>
+	<script defer src="./scripts/bestimg.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		
+		<header>
+			<div class="main_container">
+			<div class="container_inner">
+			<div class="logo"><span class="letter_h">H</span>
+			<svg width="62" height="68" viewBox="0 0 62 68" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="62" height="68" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_2143_414" transform="scale(0.0172414 0.0149254)"/>
+</pattern>
+<image id="image0_2143_414" width="62" height="68" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABDCAYAAADNlhYhAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAAxpJREFUaIHt20FoHVUUxvGfExEKgYAgBAoupMGQoLRQLC6KpUX3EUVBBKVCsSgVs6m0S6VuKi2KghgUF6JE2o0rRTEggtKSUqkIDS0UAoVCoFAoBAIuTh6UR/o6M+/OTN6b998lb96957v3nHO/OyQPTS4vqpHDOI5PsID1uibOappnN/7CV9iFz3EFczXNX7nQCXyKC3im67NdOIffxUJUSpVC38BVvIOxHs89h2Wx25NVBVOF0KfwJ77GYwW+d1gszAnsSB1USqETOCN259mSY4zjQ/wnhCcjldDXRXDH9E7TvDwuUnlZpHbf9Ct0RjSTb1VTX7s3xz8nmldpygodx2lclmjFH8CcOI5OixIpTBmhr4g0fV+aNM3LI5tzXsPbmz/npojQGfyK77GzyCSJeVQJw5FH6DhOicZwsFRo1VDIcDxI6Eti5Y4rmCo1kstw3E/ok/gZi6LVDwI9DUe30B3iwL6M5ysPLT0dw3FVl+G4V+ic6KYnbN80zctOXYYjE0X9kyjsQUnTvHQMx7GHRZomN9HbjMnM8ItEpO6dpoOogwwbTQdRA+N1vTNqmrG2CJXhdtNB1EFbdnRUo0PHqEaHjIm2CG3Njo5qdNhoV4224fbSrvtoGxjV6NDRlhptze2lNffRUY0OG6MaHToyNf6FZZNkuNt0EDUwqtFhYz3DzaajqJhfMJvhLA7gUqPhpOcGXsYLWOmk7hL24C2Dv8Pr+Biz+LHzy+4aXcAUPjKY3fg3sWEf6HJ8WzWjOziJaSF8EFjFqziEf7d6oFfXvSFSeY9I7e3IhvjXkmn80OvBPMfLJdGsXsRKv5ElZAlPY16Oi0mRc/S8KPB5zb7dv4nXxOJvmaZbUdQwrItUeQJfqNcnb4ijcBrfFf1yWWe0hqNih8+XHKMIf4he8Z6S2dSvBVwRtXtANYbjFt7EfvzTz0CpvG5qw7GBz8SZ/k2C8ZK/qU9hOP7GXrwrYdOr4vbSMRxTihmONZER+1RQBlVe01blNxxfik5emROr4z7ay3BcFGl6RMVnc50X73sNx3Uhbq8QWzn/A5kFk+cEK0EoAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
+
+			<h1 >the<span>Ham</span></h1>
+			</div>	
+
+		
+
+			<nav>
+				<a href="#" class="nav-link">Home</a>
+				<a href="#" class="nav-link">About</a>
+				<a href="#" class="nav-link">Blog</a>
+				<a href="#" class="nav-link">Skills</a>
+				<a href="#" class="nav-link">Service</a>
+				<a href="#" class="nav-link">Work</a>
+				<a href="#" class="nav-link">Testimonial</a>
+<img src="./img/Search icon 1.png" alt="icon" class="search_icon">
+			</nav></div>
+</div>
+		</header>
+<section class="upper-section"> <div class="main_container">
+	
+<h2 class="upper_title">The Ham is <span>wordpress theme</span> </h2>
+<h2 class="title">we are creative</h2>
+<h3 class="subtitle">Just Buy and Enjoy These Awesome Features</h3>
+<button class="green_button">Explore now</button>
+<button class="blue_button">Purchase now</button>
+
+</section>
+
+<section class="features">
+	
+<ul >
+	<li class="features_item"><img src="./img/Combined shape 629.png" alt="ico" class="features_icon"><p>Different theme option</p></li>
+	<li class="features_item"><img src="./img/Combined shape 1172.png" alt="ico" class="features_icon"><p>Different theme option</p></li>
+	<li class="features_item"><img src="./img/Combined shape 1179.png" alt="ico" class="features_icon"><p>Different theme option</p></li>
+	<li class="features_item"><img src="./img/Combined shape 1102 (1).png" alt="ico" class="features_icon"><p>Different theme option</p></li>
+	
+</ul>
+</div>
+
+</section>
+
+<section class="services"><div class="main_container">
+	<h2 class="services_title">Our services</h2>
+	<ul class="services_nav">
+		<li data-content="#webdesign">Web design</li>
+		<li data-content="#graphicdesign">Graphic design</li>
+		<li data-content="#onlinesupport">Online support</li>
+		<li data-content="#designapp"> designApp</li>
+		<li data-content="#onlinemarketing">Online marketing</li>
+		<li data-content="#seoservice">Seo service</li>
+	</ul>
+<div class="item-content">
+	<ul class="content">
+	<li id="webdesign" class="content_item"><img src="./img/Layer 52.png" alt="image" class="content_img"><p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization. </p></li>
+	<li id="graphicdesign" class="content_item"><img  class ="content_img" src="./img/graphic-designer.jpg" alt="graphicdesign"><p>Graphic design is the profession and academic discipline whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives. Design is based on the principle of "form follows a specific function".[2]
+
+</p></li>
+	<li  id="onlinesupport" class="content_item"><img class="content_img" src="./img/onlinesupport.jpg" alt="onlinesupport"><p>Customer support is a range of customer services to assist customers in making cost effective and correct use of a product. It includes assistance in planning, installation, training, troubleshooting, maintenance, upgrading, and disposal of a product.[1] Regarding technology products such as mobile phones, televisions, computers, software products or other electronic or mechanical goods, it is termed technical support.[1]</p></li>
+	<li id="designapp" class="content_item"><img class="content_img" src="./img/designapp.png" alt="designapp"><p>Software design is the process by which an agent creates a specification of a software artifact intended to accomplish goals, using a set of primitive components and subject to constraints.[1] Software design may refer to either "all the activity involved in conceptualizing, framing, implementing, commissioning, and ultimately modifying complex systems" or "the activity following requirements specification and before programming, as ... [in] a stylized software engineering process."</p></li>
+	<li id="onlinemarketing" class="content_item"><img class="content_img" src="./img/onlinemarketing.jpg" alt="onlinemarketing"><p>Digital marketing is the component of marketing that uses the Internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services.[</p></li>
+	<li id="seoservice" class="content_item"><img class="content_img" src="./img/seoservice.png" alt="seoservice"><p>Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.[1] SEO targets unpaid traffic (known as "natural" or "organic" results) rather than direct traffic or paid traffic. Unpaid traffic may originate from different kinds of searches, including image search, video search, academic search,[2] news search, and industry-specific vertical search engines.</p></li></ul>
+	
+	
+</div>
+</div>
+</section>
+
+<section class="purchase">
+	<div class="main_container">
+	<h2 class="purchase_title">Everything is ready.Just buy and install now</h2>
+	<h3 class="purchase_subtitle">Smooth,responsive ready,perfect portfolio,unique blog layout and many options for you</h3>
+	<button class="purchase_btn">Purchase now</button>
+</div>
+</section>
+
+<section class="gallery">
+	<div class="main_container">
+<h2 class="gallery_title">Our amazing work</h2>	
+<ul class="gallery_nav">
+<li class="nav_item">All</li>
+<li data-category=".graphic-design"class="nav_item">Graphic Design</li>
+<li data-category=".web-design" class="nav_item">Web Design</li>
+<li  data-category=".landing-pages" class="nav_item">Landing Pages</li>
+<li data-category=".word-press" class="nav_item">Wordpress</li></ul>
+
+<div class="gallery_img">
+	 
+	
+</div>
+
+<button class="gallery_btn"><img src="./img/Forma.png" alt=""><span>Load more</span></button>
+<button class="next_btn"><img src="./img/Forma.png" alt=""><span>Remove loaded</span></button></div>
+</section>
+<section class="breaking_news">
+	<div class="main_container">
+	<h2 class="news_title">Breaking news</h2>
+	<div class="news_container">
+	<a class ="breaking_link" href=""><div class="news_item">
+		<img src="./img/Layer 47.png" alt="">
+		<div class="news_icon"><span>12 Feb</span></div>
+		<p>Amazing Blog Post</p>
+		<p>By Admin| 2 comment</p>
+	</div></a>
+	<a href="" class="breaking_link">
+	<div class="news_item">
+		<img src="./img/Layer50.png" alt="">
+		<div class="news_icon"><span>12 Feb</span></div>
+		<p>Amazing Blog Post</p>
+		<p>By Admin| 2 comment</p>
+	</div></a>
+	<a href="" class="breaking_link">
+	<div class="news_item">
+		<img src="./img/Layer 51.png" alt="">
+		<div class="news_icon"><span>12 Feb</span></div>
+		<p>Amazing Blog Post</p>
+		<p>By Admin| 2 comment</p>
+	</div></a>
+	<a href="" class="breaking_link">
+	<div class="news_item">
+		<img src="./img/Layer 52.png" alt="">
+		<div class="news_icon"><span>12 Feb</span></div>
+		<p>Amazing Blog Post</p>
+		<p>By Admin|2 comment</p>
+	</div></a>
+	<a href="" class="breaking_link">
+	<div class="news_item">
+		<img src="./img/Layer 53.png" alt="">
+		<div class="news_icon"><span>12 Feb</span></div>
+		<p>Amazing Blog Post</p>
+		<p>By Admin|2 comment</p>
+	</div></a>
+	<a href="" class="breaking_link">
+	<div class="news_item">
+		<img src="./img/Layer54.png" alt="">
+		<div class="news_icon"><span>12 Feb</span></div>
+		<p>Amazing Blog Post</p>
+		<p>By Admin|2 comment</p>
+	</div></a>
+	<a href="" class="breaking_link">
+	<div class="news_item">
+		<img src="./img/Layer55.png" alt="">
+		<div class="news_icon"><span>12 Feb</span></div>
+		<p>Amazing Blog Post</p>
+		<p>By Admin|2 comment</p>
+	</div></a>
+	<a href="" class="breaking_link">
+	<div class="news_item">
+		<img src="./img/Layer56.png" alt="">
+		<div class="news_icon"><span>12 Feb</span></div>
+		<p>Amazing Blog Post</p>
+		<p>By Admin| 2 comment</p>
+	</div></a>
+</div></div>
+</section>
+<section class="comments">
+	<div class="main_container">
+	<h2 class="comments_title">What People Say About theHam</h2>
+<img class="greencomas" src="./img/Combined shape2474.png" alt="greencomas">
+<div class="container_images">
+	
+</div>
+
+<div class="container">
+	<button class="btn_prev"></button>
+      <img style="position: absolute;left:54px;" class="elips2" src="./img/Ellipse2.png" data-img ="1" alt="">
+	<img  id = "1"  src="./img/Layer81.png" alt="" class="slider_item">
+	<img style="position: absolute;left:157px;" class ="elips2" src="./img/Ellipse2.png" data-img="2" alt="">
+	<img  id = "2"  src="./img/Layer71.png" alt="" class="slider_item">
+	<img style="position: absolute;left:262px;" class="elips2" src="./img/Ellipse2.png" data-img ="3" alt="">
+	<img id = "3"  src="./img/Layer51.png" alt="" class="slider_item">
+	<img style="position: absolute;left:365px;" class="elips2" src="./img/Ellipse2.png" data-img ="4" alt="">
+	<img  id=  "4"  src="./img/Layer61.png" alt="" class="slider_item">
+	
+
+<button class="btn_next"></button>
+
+</div></div>
+
+</section>
+<section class="best_img">
+	<div class="main_container">
+	
+	<h2 class="bestimg_title">Gallery of best images</h2>
+<div class="img_container" data-masonry='{ "itemSelector": ".item", "columnWidth": 200 }'>
+	<div class=" item"> <img class="item_img" src="./img/vanglo-house-11.png" alt="" style="height:263px;"></div>
+
+	<div  class=" item" > <img class="item_img" src="./img/80493541_1281644acb_o1.png" alt="" style="height: 385px;"></div>
+
+	<div class="item" ><div class="flex_imgs" ><img style="width:185px;height:168px;"  src="./img/ringve-museum-12.png" alt=""><img  style="width: 185px;height: 168px;" src="./img/Kids-Store-Lighting1.png" alt=""> </div></div>
+
+	 <div class="item"><div class="grid_bestimg"><img  src="./img/iaPools-11.png" alt="" ><img  src="./img/Kids-Store-Lighting1.png" alt="" ><img c src="./img/vanglo-house-62.png" alt="" ><img  src="./img/Kids-Store-Lighting-2 2.png" alt="" ><img  src="./img/vanglo-house-41.png" alt="" ><img  src="./img/IAHourses-61.png" alt="" ><img  src="./img/vanglo-house-11.png" alt="" ><img  src="./img/IAbillionares-6 1.png" alt="" ><img  src="./img/BrazilIA-11.png" alt=""></div></div>
+
+	<div class="item" > <img class="item_img"  style="height: 263px;" src="./img/vanglo-house-61.png" alt=""></div><div class="item"><img class="item_img" style="height: 263px;" src="./img/p1_81.png" alt="" ></div>
+	<div class="item"><img  class="item_img" 
+		style="height: 373px;" src="./img/7328272788_c5048326de_o1.png" alt="" ></div>
+
+	<div class=" item" ><img class="item_img" style="height: 263px;" src="./img/ringve-museum-12.png" alt=""></div> 
+	 <div class="item" ><img class="item_img" style="height: 300px;" src="./img/vanglo-house-11.png" alt=""></div>
+	 
+</div>
+
+	 <button class="bestimg_btn"><img src="./img/Forma.png" alt="plus"><span>Load more</span></button>
+
+
+	 </div>
+</section>
+<footer><h3> ©Copyright 2015 <span>the Ham</span> | All Rights Reserved</h3></footer>
+
+	</div>
+</body>
+</html>
