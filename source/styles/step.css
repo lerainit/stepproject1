@@ -117,7 +117,7 @@ h1 span {
 
 	width: 100%;
 	height: 1012px;
-	background: url("source/img/Layer1.png") center no-repeat;
+	background: url("./img/Layer1.png") center no-repeat;
 	text-align: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -364,7 +364,7 @@ a {
 .purchase {
 	width: 100%;
 	height: 476px;
-	background: url("source/img/Layer 21 1 (1).png") center no-repeat;
+	background: url("./img/Layer 21 1 (1).png") center no-repeat;
 	text-align: center;
 }
 
@@ -734,7 +734,7 @@ a {
 
 	width: 100%;
 	height: 853px;
-	background: url("source/img/Layer 333.png");
+	background: url("./img/Layer 333.png");
 	text-align: center;
 
 }
