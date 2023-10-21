@@ -117,7 +117,7 @@ h1 span {
 
 	width: 100%;
 	height: 1012px;
-	background: url("../img/Layer1.png") center no-repeat;
+	background: url("source/img/Layer1.png") center no-repeat;
 	text-align: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -266,7 +266,7 @@ h1 span {
 }
 
 .services_nav {
-	width: 960pxpx;
+	width: 960px;
 	height: 72px;
 	display: flex;
 	justify-content: center;
@@ -320,7 +320,7 @@ a {
 
 .content_item p {
 	max-width: 945px;
-	height: 136pxpx;
+	height: 136px;
 	margin-left: 7px;
 }
 
@@ -364,7 +364,7 @@ a {
 .purchase {
 	width: 100%;
 	height: 476px;
-	background: url("../img/Layer 21 1 (1).png") center no-repeat;
+	background: url("source/img/Layer 21 1 (1).png") center no-repeat;
 	text-align: center;
 }
 
@@ -734,7 +734,7 @@ a {
 
 	width: 100%;
 	height: 853px;
-	background: url("../img/Layer 333.png");
+	background: url("source/img/Layer 333.png");
 	text-align: center;
 
 }
@@ -1091,7 +1091,6 @@ footer {
 	display: flex;
 	font-size: 14px;
 	font-weight: 300;
-	font-weight: 300px;
 	color: #AEAEAE;
 	justify-content: center;
 	align-items: center;
